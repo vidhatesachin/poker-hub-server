@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "dev": "nodemon app.js",
-    "start": "node app.js"
+    "start": "node app.js",
+    "build-aws-lambda": "repack-zip"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +18,7 @@
     "socket.io": "^4.7.4"
   },
   "devDependencies": {
-    "nodemon": "^3.1.0"
+    "nodemon": "^3.1.0",
+    "repack-zip": "^0.2.8"
   }
 }
